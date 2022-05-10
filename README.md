@@ -34,11 +34,11 @@ Repositories has 2 brank:
 - Solution: Has answer.
 
 Guide checkout requirement brank to code:
-- Step 1: Clone repositories ````git clone https://github.com/trancaodua/rock-paper-scrissor-game.git````
-- Step 2: Checkout requirement brank to do ````git checkout requirement````
+- Step 1: Clone repositories. Run: ````git clone https://github.com/trancaodua/rock-paper-scrissor-game.git````
+- Step 2: Checkout requirement brank to do. Run: ````git checkout requirement````
 
 Guide checkout solution brank to check answer:
-- Step 1: Checkout solution brank to do ````git checkout solution````
+- Step 1: Checkout solution brank to do. Run: ````git checkout solution````
 
 You should only code in the designinated area.
 Using the VSC search function for "Your code here", you will see a list of all the placces that required your attention.
