@@ -70,7 +70,7 @@ export const getRandomGameItem = (gamesItems) => {
 export const calculatorUserWinner = (user1GameItem, user2GameItem) => {
   if (user1GameItem.id === user2GameItem.id) return "Peace";  //return  both player same.
   else if (user1GameItem.winItemIds.includes(user2GameItem.id)) if player 1 winItemIds list contain game player 2 id => player 1 win player 2.
-  else return "Lost"; //if winItemIds list not contain game player 2 id => player 1 lost player 2.
+  else return "Lost"; //if winItemIds list not contain game player 2 id => player 1 lost, player 2 .
 };
 ```
 
