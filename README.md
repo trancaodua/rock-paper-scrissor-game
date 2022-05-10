@@ -34,7 +34,7 @@ Repositories has 2 brank:
 - Solution: has answer.
 
 Guide checkout requirement brank to code:
-- Step 1: clone repositories ````git clone````
+- Step 1: clone repositories ````git clone https://github.com/trancaodua/rock-paper-scrissor-game.git````
 - Step 2: checkout requirement brank to do ````git checkout requirement````
 
 Guide checkout solution brank to check answer:
