@@ -31,3 +31,39 @@ Often time , developers are required to work with an existing codebase and impro
 
 You should only code in the designinated area.
 Using the VSC search function for "Your code here", you will see a list of all the placces that required your attention.
+
+## Explain code
+
+- src/utils/index.js 
+
+```
+# input:gamesItems is list item.
+# return: game item.
+# Description: get random item from items list
+
+export const getRandomGameItem = (gamesItems) => {
+  const index = Math.floor(Math.random() * gamesItems.length); //create index random between 0 to gamesItems.length - 1
+  return gamesItems[index]; //return item
+};
+
+
+
+
+# input: user1GameItem, user2GameItem: is object game contain game item id list can win. Example user1GameItem = {
+    url: "/images/paper.png",
+    id: 0,
+    winItemIds: [1],
+    name: "Paper",
+  }
+# return: game result.
+# Description: calculator result player.
+
+export const calculatorUserWinner = (user1GameItem, user2GameItem) => {
+  if (user1GameItem.id === user2GameItem.id) return "Peace";  //return  both player same.
+  else if (user1GameItem.winItemIds.includes(user2GameItem.id)) if player 1 winItemIds list contain game player 2 id => player 1 win player 2.
+  else return "Lost"; //if winItemIds list not contain game player 2 id => player 1 lost player 2.
+};
+```
+
+
+
