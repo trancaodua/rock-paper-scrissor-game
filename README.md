@@ -31,7 +31,7 @@ Often time , developers are required to work with an existing codebase and impro
 
 Repositories has 2 brank:
 - Requirement: Has requirement. You will code on this brank.
-- Solution: Has answer.
+- Solution: Has answer of requirement.
 
 Guide checkout requirement brank to code:
 - Step 1: Clone repositories. Run: ````git clone https://github.com/trancaodua/rock-paper-scrissor-game.git````
