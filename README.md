@@ -27,7 +27,18 @@ You must have played the "Rock Paper Scissors Game" at least once. And now, we a
 ## Requirement
 
 Fork this [repo](https://github.com/trancaodua/rock-paper-scrissor-game) and read through the files.
-Often time , developers are required to work with an existing codebase and improve upon. This is one of that time.
+Often time , developers are required to work with an existing codebase and improve upon. This is one of that time. 
+
+Repositories has 2 brank:
+- Requirement: has requirement. You will code on this brank.
+- Solution: has answer.
+
+Guide checkout requirement brank to code:
+- Step 1: clone repositories ````git clone````
+- Step 2: checkout requirement brank to do ````git checkout requirement````
+
+Guide checkout solution brank to check answer:
+- Step 1: checkout solution brank to do ````git checkout solution````
 
 You should only code in the designinated area.
 Using the VSC search function for "Your code here", you will see a list of all the placces that required your attention.
