@@ -4,23 +4,24 @@ title: Rock-Paper-Scissor game
 id: rock_paper_scissor_game_trancaodua
 ---
 
-# Rock Paper Scissor Game
+# Rock Paper Scissors Game
 
-The pros are one of the most basic and important properties in React.
-The purpose of this project is to practice our React pros.
+Props are one of the most basic and important properties in React.
+The purpose of this project is to practice our skills with React props.
 
-You must have played the "Rock Paper Scissor Game" at least once. And now, we are making a Rock Paper Scissor Game website together.
+You must have played the "Rock Paper Scissors Game" at least once. And now, we are making a Rock Paper Scissors Game together on the web.
 
 | ![](https://i.ibb.co/35b4Tsk/Screenshot-from-2022-05-09-21-43-09.png) |
 | :-------------------------------------------------------------------: |
-|                      _Crock Paper Scrissor Game_                      |
+|                      _Rock Paper Scrissor Game_                      |
 
 [Go to demo website !](https://rock-paper-scissor-trancaodua.netlify.app/)
 
 ## User Story
 
-- User play "Rock Paper Scissor game" with a computer.
-- User select "Rock" or "Paper" or "Scissor" and game start.
+- User play "Rock Paper Scissors game" with a computer.
+- User select "Rock" or "Paper" or "Scissors" and game start.
+- User selection trigger computer selection
 - Computer's selection is random. Result is display immediately.
 
 ## Requirement
