@@ -30,15 +30,15 @@ Fork this [repo](https://github.com/trancaodua/rock-paper-scrissor-game) and rea
 Often time , developers are required to work with an existing codebase and improve upon. This is one of that time. 
 
 Repositories has 2 brank:
-- Requirement: has requirement. You will code on this brank.
-- Solution: has answer.
+- Requirement: Has requirement. You will code on this brank.
+- Solution: Has answer.
 
 Guide checkout requirement brank to code:
-- Step 1: clone repositories ````git clone https://github.com/trancaodua/rock-paper-scrissor-game.git````
-- Step 2: checkout requirement brank to do ````git checkout requirement````
+- Step 1: Clone repositories ````git clone https://github.com/trancaodua/rock-paper-scrissor-game.git````
+- Step 2: Checkout requirement brank to do ````git checkout requirement````
 
 Guide checkout solution brank to check answer:
-- Step 1: checkout solution brank to do ````git checkout solution````
+- Step 1: Checkout solution brank to do ````git checkout solution````
 
 You should only code in the designinated area.
 Using the VSC search function for "Your code here", you will see a list of all the placces that required your attention.
@@ -56,8 +56,6 @@ export const getRandomGameItem = (gamesItems) => {
   const index = Math.floor(Math.random() * gamesItems.length); //create index random between 0 to gamesItems.length - 1
   return gamesItems[index]; //return item
 };
-
-
 
 
 # input: user1GameItem, user2GameItem: is object game contain game item id list can win. Example user1GameItem = {
